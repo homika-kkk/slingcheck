@@ -11,9 +11,9 @@ class SlingShot{
         World.add(world, this.sling);
     }
 
-    fly(){
+  fly(){
         this.sling.bodyA = null;
-    }
+   }
 
     display(){
         if(this.sling.bodyA){
